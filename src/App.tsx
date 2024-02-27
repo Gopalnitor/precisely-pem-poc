@@ -2,6 +2,7 @@ import React from "react"
 import "./App.scss"
 import { InputText, Checkbox } from "./components/formComponent/index"
 import Indextest from "./components/layoutComponent/indextest"
+import ContainerIndex from "./components/layoutComponent/ContainerIndex"
 
 const App: React.FC = () => {
   return <>
@@ -21,7 +22,8 @@ const App: React.FC = () => {
           id="checkBox"
         />
       </div>
-      <Indextest />
+      {/* <Indextest /> */}
+      <ContainerIndex />
     </div>
   </>
 }
