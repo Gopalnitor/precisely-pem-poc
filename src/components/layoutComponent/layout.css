@@ -6,6 +6,16 @@
     padding: 1rem;
 }
 
+.drag-field-border{
+    border: 3px solid pink;
+    margin: 1rem;
+    padding: 1rem;
+}
+
 .field-text{
     font-weight: bold;
+}
+
+.cds--accordion__content{
+    padding-inline-end: 0%;
 }

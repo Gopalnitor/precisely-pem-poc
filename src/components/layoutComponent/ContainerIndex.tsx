@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import FormCompoents from './leftComponent/FormCompoents';
+import FormFieldsCompoent from './leftComponent/FormFieldsCompoent';
 import { Tabs, Tab, TabList, TabPanels, TabPanel, Column, Grid } from '@carbon/react';
+import FormTemplate from './middleComponent/FormTemplate';
 
 const ContainerIndex = () => {
     
@@ -15,10 +16,10 @@ const ContainerIndex = () => {
                     <TabPanel>
                         <Grid>
                             <Column sm={4}> 
-                                <FormCompoents />
+                                <FormFieldsCompoent />
                             </Column>
                             <Column style={{border: 'solid'}} sm={4}> 
-                                column -2 
+                                <FormTemplate/>
                             </Column>
                             <Column style={{border: 'solid'}} sm={4}> 
                                 column -3 

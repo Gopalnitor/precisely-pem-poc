@@ -1,4 +1,6 @@
-export interface InputTextProps {
+import { TextInputProps } from "@carbon/react/lib/components/TextInput/TextInput";
+
+export interface InputTextProps extends TextInputProps {
     labelText : string;
     helperText: string;
     value: string;
