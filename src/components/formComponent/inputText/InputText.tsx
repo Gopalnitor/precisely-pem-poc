@@ -1,8 +1,8 @@
 import React from "react";
-import { InputTextProps } from "../types";
+import { IInputTextProps } from "../types";
 import { TextInput as CarbonTextInput } from "@carbon/react";
 
-const InputText: React.FC<InputTextProps> = ({ labelText, helperText, value, id }) => {
+const InputText: React.FC<IInputTextProps> = ({ labelText, helperText, value, id }) => {
     return <>
         <CarbonTextInput  
             labelText={labelText} 

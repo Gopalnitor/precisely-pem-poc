@@ -1,8 +1,8 @@
 import React from 'react'
-import { CheckboxProps } from '../types'
+import { ICheckboxProps } from '../types'
 import { Checkbox as CarbonCheckbox } from '@carbon/react'
 
-const Checkbox: React.FC<CheckboxProps> = ({ labelText, helperText, id }) => {
+const Checkbox: React.FC<ICheckboxProps> = ({ labelText, helperText, id }) => {
   return (
     <>
         <CarbonCheckbox 

@@ -7,7 +7,7 @@ const DragFieldComponent = ({
 }:any) => {
 
     const [{isDragging}, drag] = useDrag(() => ({
-        type: formField.FieldType,
+        type: 'FormFileds',
         item: { formField: formField },
         collect: (monitor) =>({
             isDragging: !!monitor.isDragging(),

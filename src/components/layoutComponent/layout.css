@@ -1,21 +1,25 @@
 
 /* Left Layout */
-.field-border{
+.field-border {
     border: 0.1px solid rgb(249, 216, 222);
     margin: 1rem;
     padding: 1rem;
 }
 
-.drag-field-border{
+.drag-field-border {
     border: 3px solid pink;
     margin: 1rem;
     padding: 1rem;
 }
 
-.field-text{
+.field-text {
     font-weight: bold;
 }
 
-.cds--accordion__content{
+.cds--accordion__content {
     padding-inline-end: 0%;
+}
+
+.drop-board {
+    height: 100%;
 }
