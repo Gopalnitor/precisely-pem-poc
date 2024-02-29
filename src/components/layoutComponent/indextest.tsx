@@ -58,7 +58,7 @@ const Indextest = () => {
                 </div> */}
             </Column>
             <Column style={{border: 'solid'}} sm={4}>
-                <div ref={drop} style={{height:'20rem', border: 'solid blue'}}>
+                <div ref={drop} style={{height:'100%', border: 'solid blue'}}>
                     {
                         board.map((itemid)=>{
                             return <ItemData key={itemid.id} id={itemid.id} url={itemid.url} />

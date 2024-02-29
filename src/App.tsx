@@ -7,7 +7,7 @@ import ContainerIndex from "./components/layoutComponent/ContainerIndex"
 const App: React.FC = () => {
   return <>
     <div>
-      <div style={{margin: '1rem'}}>
+      {/* <div style={{margin: '1rem'}}>
         <InputText 
           labelText="Name"
           helperText="Helper: Enter your Name"
@@ -28,7 +28,7 @@ const App: React.FC = () => {
         labelText={'DropDown Area'}
         items={[{'id': '1', 'text': 'text-1'}, {'id': '2', 'text': 'text-2'}]}
        />
-      </div>
+      </div> */}
       {/* <Indextest /> */}
       <ContainerIndex />
     </div>

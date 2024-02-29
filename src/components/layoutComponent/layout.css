@@ -4,6 +4,7 @@
     border: 0.1px solid rgb(249, 216, 222);
     margin: 1rem;
     padding: 1rem;
+    cursor: all-scroll;
 }
 
 .drag-field-border {
@@ -22,4 +23,19 @@
 
 .drop-board {
     height: 100%;
+}
+
+.remove-item {
+    border-radius: 25px;
+    width: 20px;
+    padding: 4.8px;
+    min-height: 0px;
+    float: inline-end;
+}
+
+.drop-form-field {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px -2px;
+    cursor: pointer;
 }

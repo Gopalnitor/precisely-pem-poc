@@ -1,5 +1,5 @@
 import React from 'react'
-import { ComponentList } from './constants'
+import { ComponentList } from './constants'; 
 import { Accordion, AccordionItem } from '@carbon/react';
 import '../layout.css'
 import DragFieldComponent from './DragFieldComponent';

@@ -13,17 +13,17 @@ const ItemData = ({ id, url }) => {
 
   return (
     <>
-    {/* <img 
+    <img 
         ref={drag} 
         id={id} 
         src={url} 
-        width='200px' 
+        width='100px' 
         style={{ border: isDragging ? "5px solid pink" : "2px solid", margin : '0.5rem' }}
         draggable="false"
-    /> */}
-    <div ref={drag} id={id} style={{ border: isDragging ? "5px solid pink" : "2px solid", margin : '0.5rem' }}>
+    />
+    {/* <div ref={drag} id={id} style={{ border: isDragging ? "5px solid pink" : "2px solid", margin : '0.5rem' }}>
         <p>Column-{id}</p>
-    </div>    
+    </div>     */}
     </>
   )
 }
